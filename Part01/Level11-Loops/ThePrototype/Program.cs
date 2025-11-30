@@ -5,7 +5,7 @@ do
 {
     Console.Write("User 1, enter a number between 0 and 100: ");
     user1Number = Convert.ToInt32(Console.ReadLine());
-} while (user1Number < 0 || user1Number > 100);
+} while (user1Number is < 0 or > 100);
 
 Console.Clear();
 
